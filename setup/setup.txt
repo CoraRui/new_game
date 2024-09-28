@@ -1,0 +1,49 @@
+
+ok, to get interact with github you need to install git first. not a complicated install, just mindlessly click next until the wizard dissappears. i left the download link in the setup folder
+
+
+once you install it, you can clone the repo on your computer using command line
+
+
+cloning the github repo
+
+	create project folder wherever you want call "new_game" for now, or whatever
+
+	open command line in that directory (right click file explorer, select open in terminal)
+
+	run these commands:
+
+		git init
+
+		git add remote origin "https://github.com/CoraRui/new_game"
+
+		git pull origin main
+
+workflow
+
+	before working on the project, make sure to pull the latest version with:
+	
+		git pull origin main
+
+	after finishing whatever changes you've made, commit those changes to your project, then push those changes back to the repo with:
+
+		git add --all
+
+		git commit -m "name for change made"
+
+		git push origin main
+
+
+
+
+eventually you'll probably want:
+
+free
+	godot - game engine
+	gimp - image editor
+
+paid
+	fl studio - daw (dont need it unless you're gonna make music)
+	aseprite - image editor (can just use gimp instead)
+
+but you can get those later
